@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#B1FF5C">
+
+    <link rel="shortcut icon" type="image/svg" href="./assets/img/favicon.svg">
+    <!-- <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <title>Onebit 02.10</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+
+    <main class="wrapper page-login">
+        <div class="column-logo">
+            <img src="assets/img/logo.svg" alt="logo">
+        </div>
+
+        <form class="template-form">
+            <button id="history-back" class="btn btn-profile" type="button">
+                <svg>
+                    <use href="#arrow-back"></use>
+                </svg>
+            </button>
+            <h3 class="template-form__title">cтворити акаунт</h3>
+            <h6 class="template-form__subtitle">Для успішного проходження реєстрації заповніть поля, вказані нижче</h6>
+
+            <div class="input-row">
+                <div class="input-box">
+                    <label for="name">ім’я</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="input-box">
+                    <label for="lastname">прізвище</label>
+                    <input id="lastname" type="text">
+                </div>
+            </div>
+            <div class="input-box">
+                <!-- <label for="tel">номер телефону</label> -->
+                <input id="tel" type="tel" placeholder="+38(000)-00-00-000">
+            </div>
+            <div class="input-box">
+                <label for="email">email</label>
+                <input id="email" type="email">
+            </div>
+            <div class="input-box">
+                <label for="telegram">telegram</label>
+                <input id="telegram" type="text">
+            </div>
+            <div class="input-box">
+                <label for="password">пароль</label>
+                <input id="password" type="password" placeholder="Password">
+            </div>
+
+            <div class="conrol-box">
+                <input id="consent" type="checkbox">
+                <label for="consent">Я погоджуюся з <a href="#">умовами користування</a> та <a href="#">політикою конфіденційності</a></label>
+            </div>
+            <div class="btn-row">
+                <button type="submit" class="btn btn-primary btn-large">зареєструватися</button>
+            </div>
+            <div class="template-form__questions">вже маєте акаунт Onebit? <a href="#">увійти</a></div>
+        </form>
+
+    </main>
+    <footer>
+        Footer
+    </footer>
+    <svg>
+        <symbol id="arrow-back" viewBox="0 0 18 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.89098 15.3022L0.270597 7.68182L7.89098 0.0614339L9.36115 1.51527L4.25639 6.62003H17.0795V8.74361H4.25639L9.36115 13.8402L7.89098 15.3022Z" />
+        </symbol>
+        <symbol id="arrow-bottom" viewBox="0 0 14 13" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 3L7 9L13 3" stroke-width="2" />
+        </symbol>
+    </svg>
+    <a href="markap.html"
+style="background-color: #B1FF5C; 
+	   border-radius: 50%; 
+	   color: #10100E; 
+	   font-weight: 600; 
+	   text-decoration: none;
+	   padding: 6px 12px;
+	   position: fixed;
+	   left: 12px;
+	   bottom: 12px;
+ ">UI kit</a>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/hideShowPassword.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
